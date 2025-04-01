@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+   background-image:url("task1background2.avif") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: rgb(10, 4, 4);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+.about {
+    background-color: #b79696;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 25px;
+    color:#1c1919;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #9f7676;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    margin-top: 0;
+}
+
+/* Contact Section */
+.contact {
+   background-image:url("task1contact.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+/* General Styles */
+.services {
+    padding: 40px 0;
+    background-color: #b09494;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.service-box p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
